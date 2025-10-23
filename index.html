@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Consulta CEP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Consulta Endereço</h1>
+        <form class="consulta">
+          <input class="cep" placeholder="CEP" type="text" maxlength="8" autofocus required />
+          <input class="rua" id="logradouro" placeholder="Rua" type="text" readonly />
+          <input class="bairro" id="bairro" placeholder="Bairro" type="text" readonly />
+          <input class="cidade" id="localidade" placeholder="Cidade" type="text" readonly />
+          <input class="estado" id="estado" placeholder="Estado" type="text" readonly />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
